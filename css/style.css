@@ -1,0 +1,33 @@
+ .footer a {
+   color: #b8b8b8;
+   margin-left: 15px;
+   transition: 250ms;
+ }
+
+ .footer a:hover {
+   color: #000000;
+ }
+
+ .btn-muted:hover {
+ background-color: #000000;
+ color: #ffffff;
+ }
+
+.dark {
+  background-color: #4a4a4a;
+  color: #f6f6f6;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.m-bot {
+    margin-bottom: 20px;
+}
+
+.skill_list {
+  list-style-type: none;
+}
+
+.p-top p {
+  padding-top: 10px;
+}
