@@ -31,3 +31,8 @@
 .p-top p {
   padding-top: 10px;
 }
+
+.bg_img {
+  background-image: url(https://caffeina.com/media/lines-of-code.jpg);
+  background-position: center center;
+} 
