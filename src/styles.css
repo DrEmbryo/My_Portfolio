@@ -1,24 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
-.footer a {
-    color: #b8b8b8;
-    margin-left: 15px;
-    transition: 250ms;
-  }
- 
-  .footer a:hover {
-    color: #000000;
-  }
- 
-  .btn-muted:hover {
-  background-color: #000000;
-  color: #ffffff;
-  }
- 
  .dark {
    background-color: #4a4a4a;
    color: #f6f6f6;
-   padding-top: 25px;
-   padding-bottom: 20px;
+   padding: 20px 0px;
  }
  
  .m-bot {
@@ -45,9 +29,3 @@
  .card-body a:last-child button {
    margin-right: 0px;
  }
-
- nav a:hover {
-  color: #afafaf;
-  cursor: pointer;
-  text-decoration: none;
-}

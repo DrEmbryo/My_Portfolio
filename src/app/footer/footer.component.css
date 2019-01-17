@@ -1,0 +1,15 @@
+.footer a {
+    color: #b8b8b8;
+    margin-left: 15px;
+    transition: 250ms;
+  }
+ 
+  .footer a:hover {
+    color: #000000;
+  }
+ 
+  .btn-muted:hover {
+  background-color: #000000;
+  color: #ffffff;
+  }
+ 

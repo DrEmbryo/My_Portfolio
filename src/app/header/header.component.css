@@ -1,0 +1,16 @@
+.header a:hover {
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header a{
+    color: #cacaca;
+    margin: 0px 25px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
