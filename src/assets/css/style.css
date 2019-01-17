@@ -36,3 +36,11 @@
   background-image: url(https://caffeina.com/media/lines-of-code.jpg);
   background-position: center center;
 } 
+
+.card-body button {
+  margin-right: 15px;
+}
+
+.card-body a:last-child button {
+  margin-right: 0px;
+}

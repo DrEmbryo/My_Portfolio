@@ -1,0 +1,105 @@
+ <!-- about -->
+ <div class="dark m-bot bg_img">
+  <div class="container">
+    <p class="text-center"><img src="assets/images/photo.jpg" class="rounded-circle img-fluid" width="450px" height="450px" 
+    style="margin-top: 40px ; margin-bottom:  40px ; border: 1px solid #fafafa"> </p>
+    <p class="h1 text-center">Paul Goroshko</p>
+    <p class="h2 text-center" style="margin-bottom:  40px"> Web Developer</p>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8" style="background-color: rgba(0, 0, 0, 0.9); padding: 20px 35px; color: #fafafa; border-radius: 3px; ">
+        <p class="text-justify">
+            I'm a 20 year old, and i was born in Belarus.
+            I like heavy music , cats , coffee and writing code.
+            From time to time I mess around with creative code like p5.js 
+            or helping my buddy Anderw with his projects.
+        </p>
+        <p class="text-justify">
+            Currently learning Angular 2+ to complete MEAN stack. In the future have plans to learn .net platform.
+        </p>
+        <p class="text-justify" style="margin-bottom: 40px">
+            I also know a lot of stuff, check skills section to get more info.
+        </p>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+</div>
+
+<!-- galery -->
+<div class="container m-bot">
+  <p class="h1 text-center">Some of my works</p>
+  <div class="row">
+    <div class="col-md-3 m-bot">
+        <div class="card rounded-0">
+            <img class="card-img-top card rounded-0" src="assets/images/3.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Fishing supplies site</h5>
+              <p class="card-text">Site for fishing supplies company. Html 5 , CSS 3 , ejs , Node.js and MySQL was used in this ptoject</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 m-bot">
+      <div class="card rounded-0">
+          <img class="card-img-top card rounded-0" src="assets/images/6.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Shopping assistant app</h5>
+            <p class="card-text">
+              A simple shopping application that helps you plan and track the goods you need to buy.
+              Angular 6 , Web Storage, Html 5, CSS 3</p>
+          </div>
+        </div>
+    </div>
+    <div class="col-md-3 m-bot">
+        <div class="card rounded-0">
+            <img class="card-img-top card rounded-0" src="assets/images/4.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Concentration (Game)</h5>
+              <p class="card-text">Simple concentration game. JavaScript + JQuery</p>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-3 m-bot">
+        <div class="card rounded-0">
+            <img class="card-img-top card rounded-0" src="assets/images/5.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">LocalStorage Arrays</h5>
+              <p class="card-text">A tiny localStorage Wrapper.</p>
+            </div>
+          </div>
+       </div>
+  </div>
+  <div class="p-top">
+    <p class="text-center"><a [routerLink]="[ '/galery' ]"><button class="btn btn-muted">View more projects</button></a></p>
+  </div>
+</div>
+
+<!-- skills -->
+<div class="dark m-bot dark" style="padding-bottom: 40px">
+  <div class="container m-bot">
+    <p class="h1 text-center">Skills</p>
+    <div *ngFor="let skill of skills">
+      <div class="p-top">
+        <p class="h5">{{skill.name}}</p>
+        <div class="progress">
+          <div class="progress-bar bg-info" role="progressbar" aria-valuenow="60" [ngStyle]="{'width': + skill.procent + '%'}"  aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        </div>
+      </div>
+   </div>
+</div>
+  
+
+<!-- Contacts -->
+<div class="m-bot container" style="padding-bottom: 25px">
+  <p class="h1 text-center">Contacts</p>
+  <div class="text-center">
+      <p class="h3">Contact information: </p>
+      <p class="h6">Phone number:</p>
+      <p>{{info.phone}}</p>
+      <p class="h6">Skype:</p>
+      <p>{{info.skype}}</p>
+      <p class="h6">E-mail:</p>
+      <p>{{info.email}}</p> 
+  </div>
+</div>
